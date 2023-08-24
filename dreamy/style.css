@@ -53,9 +53,13 @@ a:hover {
 #menu {
 	height:35px;
 	line-height:35px;
-	background:url(images/bg-menu.png) repeat-x;
-	padding:0 10px;
+	padding:0 54px;
+	background-color: #c8f3fd;
+	font-family: cursive;
 	}
+#ad-top {
+	background-color: #6CC7DC;
+}
 #sidebar {
 	float:right;
 	width:180px;
@@ -116,11 +120,13 @@ a:hover {
 #menu li a {
 	padding:0 15px;
 	display:block;
-	color:#ffffff;
+	color: black;
 	margin-right:2px;
+	z-index: 1000;
 	}
 #menu li a:hover {
-	background:url(images/bg-menu-hover.png) no-repeat center center;
+	background-color: rgb(212, 244, 255);
+	z-index: 1000;
 	}
 
 /* Sidebar */
